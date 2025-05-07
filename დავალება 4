@@ -1,4 +1,4 @@
-// აpp.js
+// app.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ProductList from './ProductList';
@@ -19,7 +19,7 @@ function App() {
 export default App;
 
 
-// პroductList.js
+// productList.js
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -84,7 +84,7 @@ function ProductList() {
 export default ProductList;
 
 
-// პroductDetail.js
+// productDetail.js
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
